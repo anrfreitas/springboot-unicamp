@@ -1,0 +1,9 @@
+package com.example.clientes;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {
+
+	@Override
+	Cliente getById(Long id);
+}

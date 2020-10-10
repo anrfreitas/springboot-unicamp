@@ -1,0 +1,15 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+
+/* Sometimes here in the main application, it happens to not import the entities, to solve that problem
+ * we should force it to import the entities, ok? Just for precaution! */
+
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+}

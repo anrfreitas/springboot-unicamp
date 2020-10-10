@@ -1,0 +1,14 @@
+package com.example.rest;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.repositories.ClienteRepository;
+
+@RestController
+@RequestMapping("/api")
+public class ClienteRestController {
+
+	@Autowired
+	private ClienteRepository repository;
+}

@@ -1,0 +1,6 @@
+package com.example.clientes;
+
+@Entity
+public class Cliente {
+
+}

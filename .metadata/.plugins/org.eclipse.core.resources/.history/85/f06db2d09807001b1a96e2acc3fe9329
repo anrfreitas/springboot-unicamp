@@ -1,0 +1,5 @@
+package com.example.clientes;
+
+public interface ClienteRepository extends JpaRepository<> {
+
+}

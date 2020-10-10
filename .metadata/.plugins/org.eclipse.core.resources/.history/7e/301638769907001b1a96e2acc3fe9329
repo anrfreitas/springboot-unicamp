@@ -1,0 +1,6 @@
+package com.example.rest;
+
+@ApplicationRest
+public class ClienteRest {
+
+}
